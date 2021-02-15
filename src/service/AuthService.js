@@ -2,7 +2,7 @@ import axios from "axios";
 import { Alert } from '@material-ui/lab';
 import React from "react";
 
-const API_URL = "http://localhost/api";
+const API_URL = "https://tgsms.herokuapp.com/api";
 
 const register = (firstName, lastName, phoneNumber, password) => {
     return axios.post(API_URL + "/add", {
